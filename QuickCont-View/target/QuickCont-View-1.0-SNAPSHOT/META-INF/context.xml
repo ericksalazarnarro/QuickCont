@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/QuickCont">
+  <ResourceLink global="jdbc/QuickCont" name="jdbc/QuickCont" type="org.postgresql.Driver"/>
+</Context>
