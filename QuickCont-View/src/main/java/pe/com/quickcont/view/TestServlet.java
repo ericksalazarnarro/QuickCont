@@ -48,6 +48,7 @@ public class TestServlet extends HttpServlet {
         Boolean existe = usuarioService.validarUsuario("erick", "123");
         if (!existe) {
             System.out.println("usuario no existe");
+            System.out.println("usuario no existe2");
         }
         request.getRequestDispatcher("/index.jsp").forward(request, response);
     }
